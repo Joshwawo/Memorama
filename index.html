@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Memorama</title>
+</head>
+
+<body>
+    <main>
+        <section class="section1">
+            <h1>Memorama</h1>
+            <h2 id="hola"></h2>
+            <h2 id="win"></h2>
+
+            <table>
+                <tr>
+                    <td><button class="btn" id="0" onclick="destapart(0)"  ></button></td>
+                    <td><button class="btn" id="1" onclick="destapart(1)"  ></button></td>
+                    <td><button class="btn" id="2" onclick="destapart(2)"  ></button></td>
+                    <td><button class="btn" id="3" onclick="destapart(3)"  ></button></td>
+                </tr>
+                <tr>
+                    <td><button class="btn" id="4" onclick="destapart(4)"  ></button></td>
+                    <td><button class="btn" id="5" onclick="destapart(5)"  ></button></td>
+                    <td><button class="btn" id="6" onclick="destapart(6)"  ></button></td>
+                    <td><button class="btn" id="7" onclick="destapart(7)"  ></button></td>
+                </tr>
+                <tr>
+                    <td><button class="btn" id="8" onclick="destapart(8)"  ></button></td>
+                    <td><button class="btn" id="9" onclick="destapart(9)"   ></button></td>
+                    <td><button class="btn" id="10" onclick="destapart(10)"   ></button></td>
+                    <td><button class="btn" id="11" onclick="destapart(11)"   ></button></td>
+                </tr>
+                <tr>
+                    <td><button class="btn" id="12" onclick="destapart(12)"   ></button></td>
+                    <td><button class="btn" id="13" onclick="destapart(13)"   ></button></td>
+                    <td><button class="btn" id="14" onclick="destapart(14)"   ></button></td>
+                    <td><button class="btn" id="15" onclick="destapart(15)"   ></button></td>
+                </tr>
+            </table>
+        </section>
+        <section class="section2">
+            <h2 id="aciertos" class="estadisticas">Aciertos: </h2>
+            <h2 id="t-restante" class="estadisticas">Tiempo: 30 segundos</h2>
+            <h2 id="movimientos" class="estadisticas">Movimientos:</h2>
+            <button id="reset">Reinciar</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desarollador por <a href="https://github.com/Joshwawo">Jorge Morales</a></p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

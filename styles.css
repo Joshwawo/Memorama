@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    /* background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(24, 91, 26, 1) 55%, rgba(0, 0, 0, 1) 91%); */
+    background-color: rgb(25, 25, 25);
+    font-family: 'Russo One', sans-serif;
+}
+
+main {
+
+    margin: 10rem auto 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* main {
+
+    display: grid;
+    grid-template-columns: 1fr;
+
+} */
+
+.section1 {
+    background-color: rgb(25, 25, 25);
+
+    /* height: 100px; */
+}
+
+h1 {
+    color: #fff;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: normal;
+    font-family: 'Russo One', sans-serif;
+}
+
+h2 {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: normal;
+    font-family: 'Russo One', sans-serif;
+}
+
+.btn {
+    height: 10rem;
+    width: 10rem;
+    font-size: 4rem;
+    color: black;
+    font-weight: bold;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.section2 {
+    background-color: rgb(25, 25, 25);
+    width: 25rem;
+    height: 40rem;
+    text-align: center;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    height: 40rem;
+    padding: 0 2rem;
+}
+
+.estadisticas {
+    border: 1px solid white;
+    height: 10.5rem;
+    border-radius: 8px;
+    padding: .8rem 2rem;
+    box-sizing: border-box;
+}
+
+footer {
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: #f5cd03;
+}
+
+#reset {
+    background-color: rgb(16, 20, 20);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: .8rem 2rem;
+    box-sizing: border-box;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid rgb(233, 233, 233);
+}
+
+@media (min-width: 400px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr;
+        place-items: center;
+        
+    }
+}
+
+@media (min-width: 360px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr;
+        place-items: center;
+        
+    }
+}
+
+@media (min-width: 768px) {
+    main {
+        margin: 10rem auto 5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+
+    }
+}
